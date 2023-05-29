@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 I'm a research scientist in IGSNRR (CAS), remote sensing specialist, hydrologist, and life explorer and learner~
-Surface water monitoring
-Climate change
-Drought and water scarcity
-Global scale ecology
-Deep learning
+* Surface water monitoring
+* Climate change
+* Drought and water scarcity
+* Global scale ecology
+* Deep learning
 
 A data-driven personal website
 ======
