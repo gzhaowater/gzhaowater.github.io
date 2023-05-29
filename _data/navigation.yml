@@ -5,12 +5,12 @@ main:
   
   - title: "Resume"
     url: /cv/
-    
-  - title: "Data+Model"
-    url: /year-archive/
   
   - title: "Publications"
     url: /publications/
+    
+  - title: "Data+Model"
+    url: /year-archive/
 
   - title: "Talks"
     url: /talks/    
