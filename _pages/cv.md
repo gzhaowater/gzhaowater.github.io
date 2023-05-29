@@ -65,17 +65,11 @@ Academic Awards
 
 Teaching experience
 ======
-2020:      Guest lecturer — TAMU CVEN 602
-
-           Remote Sensing in Hydrology, Texas A&M University
+2020:      Guest lecturer — TAMU CVEN 602, Remote Sensing in Hydrology, Texas A&M University
 	   
-2018-2019: Guest lecturer — TAMU CVEN 627
-
-           Engineering Surface Water Hydrology, Texas A&M University
+2018-2019: Guest lecturer — TAMU CVEN 627, Engineering Surface Water Hydrology, Texas A&M University
 	   
-2017-2019: Teaching Assistant — TAMU CVEN 627
-
-	   Engineering Surface Water Hydrology, Texas A&M University
+2017-2019: Teaching Assistant — TAMU CVEN 627, Engineering Surface Water Hydrology, Texas A&M University
 
 
 Professional Skills
