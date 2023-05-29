@@ -7,11 +7,10 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 
 Education
 ======
-* Ph.D in Civil Engineering, Texas A&M University, 2018
+* Ph.D. in Civil Engineering, Texas A&M University, 2018
 
   Dissertation: The role of reservoir flow regulation and evaporation in water resources management
   
@@ -31,13 +30,13 @@ Work experience
 
 * 2020-2022: Postdoctoral Research Fellow
 
-  [Michalak Lab](https://dge.carnegiescience.edu/people/michalak), Department of Global Ecology
+  [Michalak Lab](https://bse.carnegiescience.edu/dr-anna-michalak-0), Department of Global Ecology
   
   Carnegie Institution for Science, Stanford, CA
 
 * 2018-2020: Postdoctoral Researcher
 
-  [Dr. Gao's Lab](https://ceprofs.civil.tamu.edu/hgao/), Department of Civil and Environmental Engineering
+  [Gao Hydrology Research Group](https://ceprofs.civil.tamu.edu/hgao/), Department of Civil and Environmental Engineering
   
   Texas A&M University, College Station, TX
 
