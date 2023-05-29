@@ -12,3 +12,4 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+![Alt text](images/bio-photo-2.jpg?raw=true "Title")
