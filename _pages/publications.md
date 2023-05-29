@@ -8,13 +8,14 @@ author_profile: true
 Journal articles
 ======
 (For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9uOVVFgAAAAJ&hl=en))
-**Zhao, G.**, Merder, J., Ballard, T. C., Michalak, A. M. (2023) Warming may offset the impacts of precipitation on nitrogen loading. PNAS (in press).
 
-Li, Y., **Zhao, G.**, Allen, G.H., Gao, H. (2023) Diminishing storage return of reservoir construction. Nature Communication (in press)
+**Zhao, G.**, Merder, J., Ballard, T. C., Michalak, A. M. (2023) Warming may offset the impacts of precipitation on nitrogen loading. **<ins>PNAS</ins> (in press)**
+
+Li, Y., **Zhao, G.**, Allen, G.H., Gao, H. (2023) Diminishing storage return of reservoir construction. **<ins>Nature Communication</ins> (in press)**
 
 Hou, Y., **Zhao, G.**, Chen, X., Yu, X. (2022) Improving Satellite Retrieval of Coastal Aquaculture Pond by Adding Water Quality Parameters. Remote Sensing, 14, 3306.
 
-**Zhao, G.**, Li, Y., Zhou, L., Gao, H. (2022) Evaporative water loss of 1.42 million global lakes. Nature Communications, 13, 3686.
+**Zhao, G.**, Li, Y., Zhou, L., Gao, H. (2022) Evaporative water loss of 1.42 million global lakes. [Nature Communications, 13, 3686](https://doi.org/10.1038/s41467-022-31125-6).
 
 Liu, B., Tang, Q., **Zhao, G.**, Gao, L., Shen, C., & Pan, B. (2022). Physics-Guided Long Short-Term Memory Network for Streamflow and Flood Simulations in the Lancang–Mekong River Basin. Water, 14(9), 1429.
 
@@ -30,19 +31,19 @@ Li, X., **Zhao, G.**, Nielsen-Gammon, J., Salazar, J., Wigmosta, M., Sun, N., ..
 
 **Zhao, G.**, Gao, H., & Kao, S. C. (2021). The implications of future climate change on the blue water footprint of hydropower in the contiguous US. Environmental Research Letters, 16(3), 034003. 
 
-**Zhao, G.**, Gao, H., & Cai, X. (2020), Estimating lake temperature profiles and evaporation losses by leveraging MODIS LST data, Remote Sensing of Environment, 251, 112104.
+**Zhao, G.**, Gao, H., & Cai, X. (2020), Estimating lake temperature profiles and evaporation losses by leveraging MODIS LST data, [Remote Sensing of Environment, 251, 112104](https://doi.org/10.1016/j.rse.2020.112104).
 
 Shao, M., **Zhao, G.**, Kao, S.-C., Cuo, L., Rankin, C., Gao, H. (2020), Quantifying the effects of urbanization on floods in a changing environment to promote water security - A case study of two adjacent basins in Texas, Journal of Hydrology, 125154.
 
 Li, Y., Gao, H., **Zhao, G.**, & Tseng, K.-H. (2020), A high-resolution bathymetry dataset for global reservoirs using multi-source satellite imagery and altimetry. Remote Sensing of Environment, 244, 111831.
 
-**Zhao, G.**, and H. Gao (2019), Towards global hydrological drought monitoring using remotely sensed reservoir surface area, Geophysical Research Letters, 46.
+**Zhao, G.**, and H. Gao (2019), Towards global hydrological drought monitoring using remotely sensed reservoir surface area, [Geophysical Research Letters, 46](https://doi.org/10.1029/2019GL085345).
 
-**Zhao, G.**, and H. Gao (2019), Estimating reservoir evaporation losses for the United States: Fusing remote sensing and modeling approaches, Remote Sensing of Environment, 226, 109-124.
+**Zhao, G.**, and H. Gao (2019), Estimating reservoir evaporation losses for the United States: Fusing remote sensing and modeling approaches, [Remote Sensing of Environment, 226, 109-124](https://doi.org/10.1016/j.rse.2019.03.015).
 
 Sun, S., **Zhao, G.**, Wang, T., Jin, J., Wang, P., Lin, Y., ... & Mao, H. (2019). Past and future trends of vehicle emissions in Tianjin, China, from 2000 to 2030. Atmospheric environment, 209, 182-191. 
 
-**Zhao, G.**, and H. Gao (2018), Automatic correction of contaminated images for assessment of reservoir surface area dynamics. Geophysical Research Letters, 45, 6092-6099.
+**Zhao, G.**, and H. Gao (2018), Automatic correction of contaminated images for assessment of reservoir surface area dynamics. [Geophysical Research Letters, 45, 6092-6099](https://doi.org/10.1029/2018GL078343).
 
 **Zhao, G.**, H. Gao, S.-C. Kao, N. Voisin, and B. S. Naz (2018), A modeling framework for evaluating the drought resilience of a surface water supply system under non-stationarity. Journal of Hydrology, 563, 22-32.
 
