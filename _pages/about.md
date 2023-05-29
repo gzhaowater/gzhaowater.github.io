@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "Hi, my name is Gang Zhao"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+# Hi, my name is Gang Zhao
 
 I'm a research scientist in IGSNRR (CAS), remote sensing specialist, hydrologist, and life explorer and learner~
 
