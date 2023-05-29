@@ -15,12 +15,12 @@ My research touches on interdisciplinary water science including surface water m
 
 Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | tained Ph.D. [@Texas A&M University](https://engineering.tamu.edu/civil/index.html) | dream is sailing across the Pacific with onboard wifi
 
-![Alt text](../images/WeChat_Image_20230529175416.jpg?raw=true "Title")
-![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true "Title")
-![Alt text](../images/WeChatImage_20230529211000.jpg?raw=true "Title")
-![Alt text](../images/WeChatImage_20230529210950.jpg?raw=true "Title")
-![Alt text](../images/WeChatImage_20230529210936.jpg?raw=true "Title")
-![Alt text](../images/WeChatImage_20230529210927.jpg?raw=true "Title")
+![Alt text](../images/WeChat_Image_20230529175416.jpg?raw=true "")
+![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true "")
+![Alt text](../images/WeChatImage_20230529211000.jpg?raw=true "Golden Gate Bridge")
+![Alt text](../images/WeChatImage_20230529210950.jpg?raw=true "San Francisco Bay")
+![Alt text](../images/WeChatImage_20230529210936.jpg?raw=true "")
+![Alt text](../images/WeChatImage_20230529210927.jpg?raw=true "Great Wall")
 
-![Alt text](../images/Screenshot_2023-05-29_175739.png?raw=true "Title")
+![Alt text](../images/Screenshot_2023-05-29_175739.png?raw=true "Timeline")
 
