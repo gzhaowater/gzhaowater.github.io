@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "To be added"
+title: ""
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
