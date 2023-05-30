@@ -19,11 +19,12 @@ Interactive map: [Earth Engine App](https://zeternity.users.earthengine.app/view
 
 Note: Newer version from 1984 to 2020 is available upon request.
 
-<iframe
+<!---<iframe
   src="https://zeternity.users.earthengine.app/view/glev"
   style="width:100%; height:600px;"
-></iframe>
+></iframe>-->
 
+----
 Global reservoir surface area dataset (GRSAD)
 =======
 Data available at: [Texas Data Repository (v2)](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/DF80WG), [Google Drive (v3)](https://drive.google.com/drive/folders/1w3q2Ujb7quBWTl_J39wEVXArLl6RyTQ4?usp=sharing)
@@ -34,7 +35,7 @@ Related publication: Zhao, G. and H. Gao (2018), Automatic correction of contami
 
 Interactive map: [Earth Engine App](https://ee-zhao.users.earthengine.app/view/grsad)
 
-<iframe
+<!---<iframe
   src="https://ee-zhao.users.earthengine.app/view/grsad"
   style="width:100%; height:600px;"
-></iframe>
+></iframe>-->
