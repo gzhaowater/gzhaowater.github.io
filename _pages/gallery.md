@@ -14,6 +14,7 @@ author_profile: true
 
 ![Alt text](../images/WeChat_Image_20220502204953.jpg?raw=true "California State Route 1")
 
-![Alt text](../images/20181213_202332.jpg?raw=true "AGU 2018, Washington DC")
-
-![Alt text](../images/WeChat_Image_20230529172759.jpg?raw=true "Dinner at Meizhou Dongpo")
+<p float="left">
+  <img src="../images/20181213_202332.jpg" width="47.2%" />
+  <img src="../images/WeChat_Image_20230529172759.jpg" width="52.3%" />
+</p>
