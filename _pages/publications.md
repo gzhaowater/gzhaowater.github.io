@@ -17,6 +17,8 @@ Hou, Y., **Zhao, G.**, Chen, X., Yu, X. (2022) Improving Satellite Retrieval of 
 
 **Zhao, G.**, Li, Y., Zhou, L., Gao, H. (2022) Evaporative water loss of 1.42 million global lakes. [Nature Communications, 13, 3686](https://doi.org/10.1038/s41467-022-31125-6).
 
+Wang, R., Ma, Y., **Zhao, G.**, Zhou, Y., Shehab, I., & Burton, A. (2023). Investigating water quality sensitivity to climate variability and its influencing factors in four Lake Erie watersheds. Journal of Environmental Management, 325, 116449.
+
 Liu, B., Tang, Q., **Zhao, G.**, Gao, L., Shen, C., & Pan, B. (2022). Physics-Guided Long Short-Term Memory Network for Streamflow and Flood Simulations in the Lancang–Mekong River Basin. Water, 14(9), 1429.
 
 Zhao, R., Liu, X., Dong, J., **Zhao, G.**, Manevski, K., Andersen, M. N., & Tang, Q. (2022). Human activities modulate greening patterns: a case study for southern Xinjiang in China based on long time series analysis. Environmental Research Letters, 17(4), 044012.
