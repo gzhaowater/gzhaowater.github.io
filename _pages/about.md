@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Hi, my name is Gang Zhao
+# Hi, my name is Gang Zhao [赵罡]
 
 I'm a research scientist in IGSNRR (CAS), remote sensing specialist, hydrologist, and life explorer and learner~
 
