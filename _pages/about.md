@@ -15,11 +15,12 @@ My research touches on interdisciplinary water science including surface water m
 
 Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@Texas A&M University](https://engineering.tamu.edu/civil/index.html) | dream is sailing across the Pacific with onboard wifi
 
-
+<!---
 # News
 First-author paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
 
 Coauthored paper about "reservoir storage remote sensing" has been accepted by [Nature Communications](publications.md)
+-->
 
 ![Alt text](../images/WeChat_Image_20230529175416.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true)
