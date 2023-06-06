@@ -19,8 +19,8 @@ Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@T
 ![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529211000.jpg?raw=true "Golden Gate Bridge")
 ![Alt text](../images/WeChatImage_20230529210950.jpg?raw=true "San Francisco Bay")
-![Alt text](../images/WeChatImage_20230529210936.jpg?raw=true)
+<!---![Alt text](../images/WeChatImage_20230529210936.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529210927.jpg?raw=true "Great Wall")
 
-![Alt text](../images/Screenshot_2023-05-29_175739.png?raw=true "Timeline")
+![Alt text](../images/Screenshot_2023-05-29_175739.png?raw=true "Timeline")-->
 
