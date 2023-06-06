@@ -15,6 +15,11 @@ My research touches on interdisciplinary water science including surface water m
 
 Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@Texas A&M University](https://engineering.tamu.edu/civil/index.html) | dream is sailing across the Pacific with onboard wifi
 
+# News
+Paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
+
+Paper about "reservoir storage remote sensing" has been accepted by [Nature Communications](publications.md)
+
 ![Alt text](../images/WeChat_Image_20230529175416.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529211000.jpg?raw=true "Golden Gate Bridge")
