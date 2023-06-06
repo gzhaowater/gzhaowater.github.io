@@ -17,9 +17,9 @@ Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@T
 
 
 # News
-Paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
+First-author paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
 
-Paper about "reservoir storage remote sensing" has been accepted by [Nature Communications](publications.md)
+Coauthored paper about "reservoir storage remote sensing" has been accepted by [Nature Communications](publications.md)
 
 ![Alt text](../images/WeChat_Image_20230529175416.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true)
