@@ -5,7 +5,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Global Water Observatory"
+title                    : "Zhao AquaLab"
 title_separator          : "-"
 name                     : &name "Gang Zhao"
 description              : &description "personal description"
