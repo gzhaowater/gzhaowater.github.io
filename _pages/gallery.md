@@ -29,7 +29,7 @@ author_profile: true
   <img src="../images/dajieda.jpg" width="20%" />
 </p>
 
-![Alt text](../images/RockyMountain.jpg?raw=true "Zion")
+![Alt text](../images/RockyMountain.jpg?raw=true "Rocky")
 
 <p float="left">
   <img src="../images/AGU2015.JPG" width="22%" />
