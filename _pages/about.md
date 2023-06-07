@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Hi, my name is Gang Zhao [赵罡]
+Hi, my name is Gang Zhao [赵罡]
 =====
 I'm a research scientist in IGSNRR (CAS), remote sensing specialist, hydrologist, and life explorer and learner~
 
@@ -16,7 +16,7 @@ My research touches on interdisciplinary water science including surface water m
 Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@Texas A&M University](https://engineering.tamu.edu/civil/index.html) | dream is sailing across the Pacific with onboard wifi
 
 
-# News
+News
 ======
 First-author paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
 
