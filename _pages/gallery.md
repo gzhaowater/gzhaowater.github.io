@@ -38,3 +38,15 @@ author_profile: true
   <img src="../images/Chesapeake.jpg" width="20%" />
   <img src="../images/DrGaoHome2017.jpg" width="22%" />
 </p>
+
+![Alt text](../images/WeChat_Image_20230529175416.jpg?raw=true)
+![Alt text](../images/WeChatImage_20230529210943.jpg?raw=true)
+![Alt text](../images/WeChatImage_20230529211000.jpg?raw=true "Golden Gate Bridge")
+![Alt text](../images/WeChatImage_20230529210950.jpg?raw=true "San Francisco Bay")
+
+<!---
+![Alt text](../images/WeChatImage_20230529210936.jpg?raw=true)
+![Alt text](../images/WeChatImage_20230529210927.jpg?raw=true "Great Wall")
+
+![Alt text](../images/Screenshot_2023-05-29_175739.png?raw=true "Timeline")
+-->
