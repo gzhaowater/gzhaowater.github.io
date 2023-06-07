@@ -26,7 +26,7 @@ author_profile: true
   <img src="../images/Austin.jpg" width="26%" />
   <img src="../images/Florida.jpg" width="20.5%" />
   <img src="../images/Boston.jpg" width="31%" />
-  <img src="../images/dajieda.jpg" width="21%" />
+  <img src="../images/dajieda.jpg" width="20%" />
 </p>
 
 ![Alt text](../images/RockyMountain.jpg?raw=true "Zion")
