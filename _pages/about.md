@@ -20,7 +20,7 @@ News
 ======
 First-author paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
 
-Coauthored paper about "reservoir storage remote sensing" has been accepted by [Nature Communications](publications.md)
+Coauthored paper about "reservoir storage remote sensing" has been accepted by [Nature Communications](https://doi.org/10.1038/s41467-023-38843-5)
 
 Officially joined IGSNRR in Nov, 2022! Look foward to the new path ahead!
 
