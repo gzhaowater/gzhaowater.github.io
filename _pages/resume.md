@@ -12,7 +12,7 @@ Education
 ======
 * Ph.D. in Civil Engineering, Texas A&M University, 2018
 
-  Dissertation: The role of reservoir flow regulation and evaporation in water resources management
+  Dissertation: [The role of reservoir flow regulation and evaporation in water resources management](https://oaktrust.library.tamu.edu/handle/1969.1/174431)
   
   Committee: Huilin Gao (chair), Francisco Olivera, Ralph Wurbs, John Nielsen-Gammon
   
