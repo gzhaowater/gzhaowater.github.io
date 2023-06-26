@@ -11,6 +11,8 @@ Journal articles
 
 **Zhao, G.***, Merder, J., Ballard, T. C., Michalak, A. M. (2023) Warming may offset the impacts of precipitation on nitrogen loading. **<ins>PNAS</ins> (in press)**
 
+Shao, M., Fernando, D., Zhu, J., **Zhao, G.**, ... Gao, H.* (2023) Estimating Future Surface Water Availability through an Integrated Climate-Hydrology-Management Modeling Framework at a Basin Scale under CMIP6 Scenarios. Water Resources Research (in press)
+
 Li, Y., **Zhao, G.**, Allen, G.H., Gao, H.* (2023) Diminishing storage return of reservoir construction. [Nature Communications, 14, 3203](https://doi.org/10.1038/s41467-023-38843-5).
 
 Hou, Y., **Zhao, G.**, Chen, X., Yu, X.* (2022) Improving Satellite Retrieval of Coastal Aquaculture Pond by Adding Water Quality Parameters. Remote Sensing, 14, 3306.
