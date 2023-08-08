@@ -18,7 +18,7 @@ Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@T
 
 News
 ======
-May 2023: First-author paper about "climate regulating river nitrogen" has been accepted by [PNAS](publications.md)
+Aug 2023: First-author paper about "climate regulating river nitrogen" has been published by [PNAS](https://doi.org/10.1073/pnas.2220616120)
 
 June 2023: Coauthored paper about "reservoir storage remote sensing" has been published by [Nature Communications](https://doi.org/10.1038/s41467-023-38843-5)
 
