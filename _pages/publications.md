@@ -9,7 +9,7 @@ Journal articles
 ======
 (For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9uOVVFgAAAAJ&hl=en))
 
-**Zhao, G.***, Merder, J., Ballard, T. C., Michalak, A. M. (2023) Warming may offset the impacts of precipitation on nitrogen loading. **<ins>PNAS</ins> (in press)**
+**Zhao, G.***, Merder, J., Ballard, T. C., Michalak, A. M. (2023) Warming may offset the impacts of precipitation on nitrogen loading. [PNAS 120 (33) e2220616120](https://doi.org/10.1073/pnas.2220616120)
 
 Shao, M., Fernando, D., Zhu, J., **Zhao, G.**, ... Gao, H.* (2023) Estimating Future Surface Water Availability through an Integrated Climate-Hydrology-Management Modeling Framework at a Basin Scale under CMIP6 Scenarios. Water Resources Research (in press)
 
