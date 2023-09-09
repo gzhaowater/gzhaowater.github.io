@@ -18,6 +18,8 @@ Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@T
 
 News
 ======
+Sept 2023: Co-authored paper about "Geographic redistribution of microcystin hotspots in response to climate warming" has been accepted by Nature Water
+
 Aug 2023: First-author paper about "climate regulating river nitrogen" has been published by [PNAS](https://doi.org/10.1073/pnas.2220616120)
 
 June 2023: Coauthored paper about "reservoir storage remote sensing" has been published by [Nature Communications](https://doi.org/10.1038/s41467-023-38843-5)
