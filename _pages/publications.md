@@ -9,7 +9,7 @@ Journal articles
 ======
 (For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9uOVVFgAAAAJ&hl=en))
 
-Merder, J.*, Harris, T., **Zhao, G.**, Stasinopoulos, D.M., Rigby, R.A., Michalak A.M. (2023) Geographic redistribution of microcystin hotspots in response to climate warming. Nature Water (in press)
+Merder, J.*, Harris, T., **Zhao, G.**, Stasinopoulos, D.M., Rigby, R.A., Michalak A.M. (2023) Geographic redistribution of microcystin hotspots in response to climate warming. [Nature Water, 1-11](https://doi.org/10.1038/s44221-023-00138-w)
 
 **Zhao, G.***, Merder, J., Ballard, T. C., Michalak, A. M. (2023) Warming may offset the impacts of precipitation on nitrogen loading. [PNAS 120 (33) e2220616120](https://doi.org/10.1073/pnas.2220616120)
 
