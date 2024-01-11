@@ -22,7 +22,7 @@ Education
 
 Work experience
 ======
-* 2022-present:	Associate Researcher
+* 2022-present:	Research Scientist
 
   [Key Laboratory of Water Cycle and Related Land Surface Processes](http://water.igsnrr.cas.cn/)
   
