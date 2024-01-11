@@ -15,6 +15,9 @@ My research touches on interdisciplinary water science including surface water m
 
 Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@Texas A&M University](https://engineering.tamu.edu/civil/index.html) | dream is sailing across the Pacific with onboard wifi
 
+赵罡，中国科学院地理科学与资源研究所研究员，入选中国科学院率先行动引才计划青年项目（2022年）并获择优支持（2023年）。博士毕业于美国德克萨斯A&M大学，后在卡内基科学研究所进行博后训练。主要围绕变化环境的背景，对陆地水体的“水量平衡-能量平衡-水质变化”进行系统性遥感观测和数值模拟。参与研发美国国家航空航天局(NASA)官方水库数据产品算法，研究成果被白宫经济顾问委员会等引用。以第一/通讯作者在PNAS、Nature Communications、Geophysical Research Letters、 Remote Sensing of Environment发表SCl论文十余篇。担任Remote Sensing、Frontiers in Environmental Science客座主编。
+
+课题组诚招硕士生和博士生，有意者请将个人简历、主要科研成果等发送邮件至邮箱gzhao@igsnrr.ac.cn.
 
 News
 ======
