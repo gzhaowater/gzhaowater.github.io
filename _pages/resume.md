@@ -24,7 +24,7 @@ Work experience
 ======
 * 2022-present:	Research Scientist (研究员）
 
-  [汤秋鸿全球变化水文学实验室](https://people.ucas.ac.cn/~0019184?language=en)
+  [全球变化水文学实验室](https://people.ucas.ac.cn/~0019184?language=en)
   
   [Key Laboratory of Water Cycle and Related Land Surface Processes](http://water.igsnrr.cas.cn/)
   
