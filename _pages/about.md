@@ -1,4 +1,4 @@
-![image](https://github.com/gzhaowater/gzhaowater.github.io/assets/23641578/e210109b-03c3-4e58-846f-8cf7cfaee30f)![image](https://github.com/gzhaowater/gzhaowater.github.io/assets/23641578/22a1ce2d-efcb-433c-b50d-e66fa9267a7f)---
+---
 permalink: /
 title: ""
 excerpt: "About me"
