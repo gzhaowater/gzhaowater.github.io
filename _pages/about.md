@@ -21,7 +21,7 @@ Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@T
 
 News
 ======
-May 2024: Co-authored paper about "Multivariate extremes in lakes" has been accepted by Nature Communications
+May 2024: Co-authored paper about "Multivariate extremes in lakes" has been published by [Nature Communications](https://doi.org/10.1038/s41467-024-49012-7)
 
 April 2024: Co-authored paper about "Decarbonisation potential of floating solar photovoltaics on lakes worldwide" has been accepted by Nature Water
 
