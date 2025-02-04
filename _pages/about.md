@@ -21,7 +21,7 @@ Postdoc [@CarnegieEcology](https://bse.carnegiescience.edu/) | trained Ph.D. [@T
 
 News
 ======
-Nov 2024: First-authored paper about "Decoupling of surface water storage from precipitation in global drylands" has been accepted by Nature Water (link coming soon)
+Dec 2024: First-authored paper about "Decoupling of surface water storage from precipitation in global drylands" has been published by [Nature Water](https://doi.org/10.1038/s44221-024-00367-7)
 
 Oct 2024: Co-authored paper about "Water quality–fisheries tradeoffs" has been published by [PNAS](https://doi.org/10.1073/pnas.2322595121).
 
