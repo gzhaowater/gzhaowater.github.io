@@ -9,7 +9,7 @@ Journal articles
 ======
 (For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9uOVVFgAAAAJ&hl=en))
 
-**Zhao, G.***, H Gao, Y Li, Q Tang, R.I Woolway, J Merder, L Rosa, AM Michalak (2024). Decoupling of surface water storage from precipitation in global drylands due to anthropogenic activity. Nature Water, in press.
+**Zhao, G.***, H Gao, Y Li, Q Tang, R.I Woolway, J Merder, L Rosa, AM Michalak (2025). Decoupling of surface water storage from precipitation in global drylands due to anthropogenic activity. [Nature Water, 3, 80–88](https://doi.org/10.1038/s44221-024-00367-7).
 
 Merder, J.*, Harris, T., **Zhao, G.**, Stasinopoulos, D.M., Rigby, R.A., Michalak A.M. (2023) Geographic redistribution of microcystin hotspots in response to climate warming. [Nature Water, 1-11](https://doi.org/10.1038/s44221-023-00138-w)
 
