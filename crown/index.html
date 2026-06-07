@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROWN - China Reservoir Water Observation Network</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Times New Roman', 'SimSun', serif;
+            background: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1a5276, #2980b9);
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        header h1 { font-size: 1.8em; font-weight: 600; }
+        header .subtitle { font-size: 0.95em; opacity: 0.9; }
+        .container {
+            display: flex;
+            height: calc(100vh - 70px);
+        }
+        #map {
+            flex: 1;
+            min-width: 0;
+            z-index: 1;
+        }
+        #sidebar {
+            width: 420px;
+            min-width: 420px;
+            background: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        #sidebar-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            background: #f8f9fa;
+        }
+        #sidebar-header h2 {
+            font-size: 1.1em;
+            color: #1a5276;
+            margin-bottom: 4px;
+        }
+        #sidebar-header p {
+            font-size: 0.85em;
+            color: #666;
+        }
+        #chart-container {
+            flex: 1;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        #chart-container canvas {
+            max-height: 100%;
+        }
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #999;
+            text-align: center;
+            padding: 40px;
+        }
+        .empty-state svg {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 15px;
+            opacity: 0.4;
+        }
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #666;
+        }
+        .loading .spinner {
+            width: 30px;
+            height: 30px;
+            border: 3px solid #e0e0e0;
+            border-top-color: #2980b9;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 10px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .error-msg {
+            padding: 20px;
+            text-align: center;
+            color: #c0392b;
+            background: #fdf2f2;
+            border-radius: 8px;
+            margin: 15px;
+        }
+        .reservoir-info {
+            padding: 10px 20px;
+            background: #e8f4fd;
+            border-bottom: 1px solid #d4e6f1;
+        }
+        .reservoir-info strong { color: #1a5276; }
+        .legend {
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            z-index: 1000;
+            font-size: 0.85em;
+        }
+        .legend-item { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+        .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CROWN</h1>
+        <div class="subtitle">China Reservoir Water Observation Network</div>
+    </header>
+    <div class="container">
+        <div id="map"></div>
+        <div id="sidebar">
+            <div id="sidebar-header">
+                <h2>Reservoir Water Level</h2>
+                <p>Click any reservoir point to view its water level time series</p>
+            </div>
+            <div id="chart-container">
+                <div class="empty-state">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    <p>Select a reservoir on the map<br>to view water level data</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ========== CONFIG ==========
+        // Change this to your cloud server URL after setup
+        // Option 1 (simple): http://43.163.98.133:8080 (HTTP only - may be blocked by browser)
+        // Option 2 (recommended): https://crown.gzhaowater.com/data (HTTPS with nginx + SSL)
+        const DATA_URL = 'https://crown.gzhaowater.com/data';
+        const GEOJSON_URL = 'assets/data/reservoirs.geojson';
+
+        // ========== MAP SETUP ==========
+        const map = L.map('map', {
+            center: [35, 105],
+            zoom: 5,
+            zoomControl: true
+        });
+
+        // Tile layer - light themed
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+            maxZoom: 18
+        }).addTo(map);
+
+        // ========== RESERVOIR MARKERS ==========
+        let chart = null;
+
+        const reservoirIcon = L.divIcon({
+            className: 'custom-marker',
+            html: '<div style="width:10px;height:10px;background:#2980b9;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);"></div>',
+            iconSize: [14, 14],
+            iconAnchor: [7, 7]
+        });
+
+        const activeIcon = L.divIcon({
+            className: 'custom-marker',
+            html: '<div style="width:14px;height:14px;background:#e74c3c;border-radius:50%;border:2px solid white;box-shadow:0 1px 6px rgba(0,0,0,0.4);"></div>',
+            iconSize: [18, 18],
+            iconAnchor: [9, 9]
+        });
+
+        let markers = {};
+        let activeMarker = null;
+
+        fetch(GEOJSON_URL)
+            .then(r => r.json())
+            .then(data => {
+                data.features.forEach(f => {
+                    const { GDW_ID, RES_NAME } = f.properties;
+                    const [lon, lat] = f.geometry.coordinates;
+                    const name = RES_NAME || `Reservoir ${GDW_ID}`;
+
+                    const marker = L.marker([lat, lon], { icon: reservoirIcon })
+                        .bindTooltip(name, { direction: 'top', offset: [0, -8] })
+                        .on('click', () => loadReservoir(GDW_ID, name, lat, lon, marker));
+
+                    marker.addTo(map);
+                    markers[GDW_ID] = marker;
+                });
+                console.log(`Loaded ${data.features.length} reservoirs`);
+            })
+            .catch(err => {
+                console.error('Failed to load reservoirs:', err);
+                document.getElementById('chart-container').innerHTML =
+                    '<div class="error-msg">Failed to load reservoir data.<br>Please check your network connection.</div>';
+            });
+
+        // ========== DATA LOADING & CHARTING ==========
+        function loadReservoir(gdwId, name, lat, lon, marker) {
+            // Update marker style
+            if (activeMarker) activeMarker.setIcon(reservoirIcon);
+            marker.setIcon(activeIcon);
+            activeMarker = marker;
+
+            // Update sidebar header
+            document.getElementById('sidebar-header').innerHTML =
+                `<h2>${name}</h2><p>GDW_ID: ${gdwId} | ${lat.toFixed(3)}°N, ${lon.toFixed(3)}°E</p>`;
+
+            // Show loading
+            const container = document.getElementById('chart-container');
+            container.innerHTML = '<div class="loading"><div class="spinner"></div>Loading data...</div>';
+
+            // Fetch CSV
+            const csvUrl = `${DATA_URL}/${gdwId}.csv`;
+            fetch(csvUrl)
+                .then(r => {
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    return r.text();
+                })
+                .then(csvText => {
+                    const parsed = parseCSV(csvText);
+                    renderChart(name, parsed);
+                })
+                .catch(err => {
+                    container.innerHTML = `<div class="error-msg">
+                        Failed to load data for reservoir ${gdwId}.<br>
+                        Error: ${err.message}<br><br>
+                        <small>URL: ${csvUrl}</small>
+                    </div>`;
+                });
+        }
+
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            const header = lines[0].toLowerCase().split(',').map(h => h.trim());
+            const dateIdx = header.indexOf('date');
+            const wlevelIdx = header.findIndex(h => h.toLowerCase().includes('wlevel') || h.toLowerCase().includes('water'));
+
+            const dates = [];
+            const values = [];
+
+            for (let i = 1; i < lines.length; i++) {
+                const cols = lines[i].split(',');
+                if (cols.length < 2) continue;
+                const date = new Date(cols[dateIdx].trim());
+                const val = parseFloat(cols[wlevelIdx].trim());
+                if (!isNaN(date.getTime()) && !isNaN(val)) {
+                    dates.push(date);
+                    values.push(val);
+                }
+            }
+            return { dates, values };
+        }
+
+        function renderChart(name, data) {
+            const container = document.getElementById('chart-container');
+            container.innerHTML = '<canvas id="reservoirChart"></canvas>';
+
+            if (chart) chart.destroy();
+
+            const ctx = document.getElementById('reservoirChart').getContext('2d');
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'Water Level',
+                        data: data.dates.map((d, i) => ({ x: d, y: data.values[i] })),
+                        borderColor: '#2980b9',
+                        backgroundColor: 'rgba(41, 128, 185, 0.1)',
+                        borderWidth: 1.5,
+                        fill: true,
+                        pointRadius: 0,
+                        pointHoverRadius: 5,
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    animation: { duration: 800 },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: `${name} - Water Level Time Series`,
+                            font: { size: 14, family: "'Times New Roman', serif" },
+                            padding: { bottom: 15 }
+                        },
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: 'rgba(0,0,0,0.8)',
+                            titleFont: { size: 12 },
+                            bodyFont: { size: 12 },
+                            callbacks: {
+                                title: (items) => {
+                                    const d = new Date(items[0].parsed.x);
+                                    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                                },
+                                label: (item) => `Water Level: ${item.parsed.y.toFixed(2)} m`
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                tooltipFormat: 'yyyy-MM-dd',
+                                displayFormats: {
+                                    month: 'yyyy-MM',
+                                    year: 'yyyy'
+                                }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Date',
+                                font: { size: 12, family: "'Times New Roman', serif" }
+                            },
+                            ticks: { maxTicksLimit: 8, font: { size: 11 } }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Water Level (m)',
+                                font: { size: 12, family: "'Times New Roman', serif" }
+                            },
+                            ticks: { font: { size: 11 } }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
