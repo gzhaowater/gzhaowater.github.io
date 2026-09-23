@@ -13,7 +13,7 @@ redirect_from:
 
   博士论文：[水库流量调节与蒸发在水资源管理中的作用](https://oaktrust.library.tamu.edu/handle/1969.1/174431)（The role of reservoir flow regulation and evaporation in water resources management）
 
-  答辩委员会：高慧林（主席）、Francisco Olivera、Ralph Wurbs、John Nielsen-Gammon
+  答辩委员会：高慧琳（主席）、Francisco Olivera、Ralph Wurbs、John Nielsen-Gammon
 
 * 2014年 美国德克萨斯A&M大学 土木工程 硕士
 
