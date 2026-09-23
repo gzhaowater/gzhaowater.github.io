@@ -8,13 +8,13 @@ main:
   
   - title: "Publications"
     url: /publications/
-    
+
+  - title: "Projects"
+    url: /projects/
+
   - title: "Data+Model"
     url: /year-archive/
 
-  - title: "Talks"
-    url: /talks/    
-    
   - title: "Gallery"
     url: /portfolio/
     
