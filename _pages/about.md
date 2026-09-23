@@ -15,7 +15,9 @@ redirect_from:
 
 近5年来主持科技部西南科考项目、中科院人才项目、基金委面上项目、第三次新疆科考子课题等。
 
-2018年博士毕业于美国德克萨斯A&M大学，后在斯坦福卡内基科学研究所进行博后训练。主要围绕变化环境的背景，对陆地水体的"水量平衡-能量平衡-水质变化"进行系统性遥感观测和数值模拟。作为项目骨干研发美国国家航空航天局(NASA)官方水库数据产品算法，研究成果被白宫经济顾问委员会等引用。以第一/通讯作者在Nature Water、PNAS、Nature Communications、Geophysical Research Letters、Remote Sensing of Environment发表SCI论文20余篇。担任npj Hydrosphere副主编，获2025年度中国生态环境十大科技进展（2）、中国地理科学十大研究进展（6）、中国遥感委员会优秀成果一等奖（2）等奖励。
+2018年博士毕业于美国德克萨斯A&M大学，后在斯坦福卡内基科学研究所进行博后训练。主要围绕变化环境的背景，对陆地水体的"水量平衡-能量平衡-水质变化"进行系统性遥感观测和数值模拟。作为项目骨干研发美国国家航空航天局(NASA)官方水库数据产品算法，研究成果被白宫经济顾问委员会等引用。
+
+以第一/通讯作者在Nature Water、PNAS、Nature Communications、Geophysical Research Letters、Remote Sensing of Environment发表SCI论文20余篇。担任npj Hydrosphere副主编，获2025年度中国生态环境十大科技进展（2）、中国地理科学十大研究进展（6）、中国遥感委员会优秀成果一等奖（2）等奖励。
 
 依托地理信息科学与技术全国重点实验室，课题组诚招博士生和博士后，有意者请将个人简历、主要科研成果等发送邮件至邮箱gzhao@igsnrr.ac.cn。
 
