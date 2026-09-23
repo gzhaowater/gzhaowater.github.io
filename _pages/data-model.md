@@ -40,3 +40,21 @@ Interactive map: [Earth Engine App](https://ee-zhao.users.earthengine.app/view/g
   src="https://ee-zhao.users.earthengine.app/view/grsad"
   style="width:100%; height:600px;"
 ></iframe>-->
+
+----
+
+CROWN (China Reservoir Water Observation Network)
+=======
+
+The CROWN interactive map shows time-series water levels for major Chinese reservoirs, with marker overlays on a base map and click-to-load hydrographs backed by a live data server.
+
+<p style="margin: 1.2em 0;">
+  <a class="btn btn--primary btn--large" href="{{ '/crown/' | relative_url }}" target="_blank" rel="noopener">
+    Open the CROWN map →
+  </a>
+</p>
+
+Notes
+- Click any reservoir marker to load its water-level time series in a floating chart panel.
+- Data is served by an HTTPS endpoint (self-signed certificate) and may require accepting the certificate warning once per browser.
+- For the underlying dataset and citations, see the related publications on the Publications page.
