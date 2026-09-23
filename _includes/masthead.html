@@ -1,23 +1,68 @@
 {% include base_path %}
 
+{% comment %}
+  Bilingual masthead.
+  `lang` comes from page front matter; Chinese pages (no `lang:`) default to zh.
+  Nav labels resolve through _data/i18n.yml; nav URLs get the /en/ prefix on
+  English pages for items flagged `i18n: true` in _data/navigation.yml.
+{% endcomment %}
+{% assign lang = page.lang | default: 'zh' %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{% if lang == 'en' %}/en/{% endif %}">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign nav_url = link.url %}
+            {% if lang == 'en' and link.i18n == true %}
+              {% if link.url == '/' %}
+                {% assign nav_url = '/en/' %}
+              {% else %}
+                {% assign nav_url = link.url | prepend: '/en' %}
+              {% endif %}
+            {% endif %}
+            {% assign nav_title = site.data.i18n[lang][link.title] | default: link.title %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ nav_url }}">{{ nav_title }}</a></li>
           {% endfor %}
+
+          {% comment %}Language switcher: mirror the current URL in the other language.{% endcomment %}
+          {% if lang == 'zh' %}
+            {% assign switch_href = page.url | prepend: '/en' %}
+            {% if page.url == '/' %}{% assign switch_href = '/en/' %}{% endif %}
+            <li class="masthead__menu-item lang-switch"><a id="lang-toggle" href="{{ switch_href }}">EN</a></li>
+          {% else %}
+            {% assign switch_href = page.url | remove_first: '/en' %}
+            <li class="masthead__menu-item lang-switch"><a id="lang-toggle" href="{{ switch_href }}">中文</a></li>
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+/* Language switcher with fallback: if the mirrored page does not exist
+ * (e.g. the gallery has no English version), fall back to that
+ * language's home page instead of showing a 404. */
+(function () {
+  var t = document.getElementById('lang-toggle');
+  if (!t) return;
+  t.addEventListener('click', function (ev) {
+    ev.preventDefault();
+    var url = t.getAttribute('href');
+    var fallback = url.indexOf('/en') === 0 ? '/en/' : '/';
+    fetch(url, { method: 'HEAD' }).then(function (r) {
+      window.location.href = r.ok ? url : fallback;
+    }).catch(function () { window.location.href = url; });
+  });
+})();
+</script>

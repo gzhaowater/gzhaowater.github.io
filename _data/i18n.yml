@@ -1,0 +1,26 @@
+# Site-wide UI strings used by templates and the language switcher.
+#
+# Keys are FLAT ("nav.home") so templates can look them up in Liquid with
+# variable keys:  {{ site.data.i18n[lang][item.title] }}
+# `lang` comes from page front matter ("en") and defaults to "zh".
+# navigation.yml entries reference these keys in their `title` field.
+
+zh:
+  nav.home: "首页"
+  nav.resume: "简历"
+  nav.publications: "出版物"
+  nav.projects: "项目"
+  nav.data_model: "数据+模型"
+  nav.gallery: "图库"
+  nav.contact: "联系"
+  ui.page_not_found: "页面未找到"
+
+en:
+  nav.home: "Home"
+  nav.resume: "Resume"
+  nav.publications: "Publications"
+  nav.projects: "Projects"
+  nav.data_model: "Data + Model"
+  nav.gallery: "Gallery"
+  nav.contact: "Contact"
+  ui.page_not_found: "Page not found"

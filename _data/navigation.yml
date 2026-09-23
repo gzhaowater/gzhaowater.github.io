@@ -1,22 +1,33 @@
-# main links links
+# main links
+# `title` is a flat key into _data/i18n.yml, resolved per page language
+#   {{ site.data.i18n[lang][link.title] }}
+# `i18n: true`  -> on English pages the URL gets the /en/ prefix
+# `i18n: false` -> link always points at the (Chinese-only) target
 main:
-  - title: "Home"
+  - title: nav.home
     url: /
-  
-  - title: "Resume"
+    i18n: true
+
+  - title: nav.resume
     url: /cv/
-  
-  - title: "Publications"
+    i18n: true
+
+  - title: nav.publications
     url: /publications/
+    i18n: true
 
-  - title: "Projects"
+  - title: nav.projects
     url: /projects/
+    i18n: true
 
-  - title: "Data+Model"
+  - title: nav.data_model
     url: /year-archive/
+    i18n: true
 
-  - title: "Gallery"
+  - title: nav.gallery
     url: /portfolio/
-    
-  - title: "Contact"
+    i18n: false
+
+  - title: nav.contact
     url: /markdown/
+    i18n: true
