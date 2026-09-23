@@ -7,10 +7,10 @@ redirect_from:
   - /markdown.html
 ---
 
-CONTACT
+联系方式
 ======
-Office: No. 11A Datun Road, Chaoyang District, Beijing, China
+办公室：北京市朝阳区大屯路甲11号
 
-Phone: (+1) 669-500-8629
+电话：(+1) 669-500-8629
 
-Email: gzhao@igsnrr.ac.cn; gzhao@carnegiescience.edu
+邮箱：gzhao@igsnrr.ac.cn；gzhao@carnegiescience.edu

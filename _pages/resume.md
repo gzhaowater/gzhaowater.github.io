@@ -7,84 +7,81 @@ redirect_from:
   - /resume
 ---
 
-
-Education
+教育经历
 ======
-* Ph.D. in Civil Engineering, Texas A&M University, 2018
+* 2018年 美国德克萨斯A&M大学 土木工程 博士
 
-  Dissertation: [The role of reservoir flow regulation and evaporation in water resources management](https://oaktrust.library.tamu.edu/handle/1969.1/174431)
-  
-  Committee: Huilin Gao (chair), Francisco Olivera, Ralph Wurbs, John Nielsen-Gammon
-  
-* M.S. in Civil Engineering, Texas A&M University, 2014
+  博士论文：[水库流量调节与蒸发在水资源管理中的作用](https://oaktrust.library.tamu.edu/handle/1969.1/174431)（The role of reservoir flow regulation and evaporation in water resources management）
 
-* B.S. in Environmental Science, Nankai University, China, 2012
+  答辩委员会：高会林（主席）、Francisco Olivera、Ralph Wurbs、John Nielsen-Gammon
 
-Work experience
+* 2014年 美国德克萨斯A&M大学 土木工程 硕士
+
+* 2012年 南开大学 环境科学 学士
+
+工作经历
 ======
-* 2022-present:	Research Scientist (研究员）
+* 2022年至今：研究员
 
-  [Key Laboratory of Water Cycle and Related Land Surface Processes](http://water.igsnrr.cas.cn/)
-  
-  [Institute of Geographic Sciences and Natural Resources Research, CAS](http://www.igsnrr.ac.cn/)
+  [水循环及陆表过程重点实验室](http://water.igsnrr.cas.cn/)
 
-* 2020-2022: Postdoctoral Research Fellow
+  [中国科学院地理科学与资源研究所](http://www.igsnrr.ac.cn/)
 
-  [Michalak Lab](https://bse.carnegiescience.edu/dr-anna-michalak-0), Department of Global Ecology
-  
-  Carnegie Institution for Science, Stanford, CA
+* 2020-2022年：博士后研究员
 
-* 2018-2020: Postdoctoral Researcher
+  [Michalak 实验室](https://bse.carnegiescience.edu/dr-anna-michalak-0)，全球生态学系
 
-  [Gao Hydrology Research Group](https://ceprofs.civil.tamu.edu/hgao/), Department of Civil and Environmental Engineering
-  
-  Texas A&M University, College Station, TX
+  斯坦福大学卡内基科学研究所，加州斯坦福
 
-* 2015, 2016: Professional Internship
+* 2018-2020年：博士后
 
-  [Dr. Kao's Lab](https://www.ornl.gov/staff-profile/shih-chieh-kao), Environmental Science Division
-  
-  Oak Ridge National Laboratory, Oak Ridge, TN
-  
-Academic Awards
+  [Gao 水文研究组](https://ceprofs.civil.tamu.edu/hgao/)，土木与环境工程系
+
+  美国德克萨斯A&M大学，德州大学城
+
+* 2015、2016年：专业实习
+
+  [Kao 博士实验室](https://www.ornl.gov/staff-profile/shih-chieh-kao)，环境科学部
+
+  橡树岭国家实验室，田纳西州橡树岭
+
+学术奖励
 ======
-2017    National Aeronautics and Space Administration (NASA) Earth and Space Science Fellowship (NESSF)
+2017    美国国家航空航天局（NASA）地球与空间科学奖学金（NESSF）
 
-2016    U.S. Geological Survey (USGS) Graduate Research Program scholarship
+2016    美国地质调查局（USGS）研究生科研项目奖学金
 
-2015    Outstanding Student Paper Award in 2015 American Geophysical Union Fall Meeting (hydrology section)
+2015    美国地球物理联合会（AGU）秋季年会优秀学生论文奖（水文分会）
 
-2015    Mills Scholarship from Texas Water Resources Institute
+2015    德克萨斯水资源研究所 Mills 奖学金
 
-2013    Research Assistantship in Texas A&M University
+2013    德克萨斯A&M大学研究助理奖学金
 
-2011    First Prize of Excellent Undergraduate Scholarship in Nankai University 
+2011    南开大学优秀本科生一等奖学金
 
-2007    First Prize in National High School Mathematics Competition
+2007    全国高中数学联赛一等奖
 
-Teaching experience
+教学经历
 ======
-2020:      Guest lecturer — TAMU CVEN 602, Remote Sensing in Hydrology, Texas A&M University
-	   
-2018-2019: Guest lecturer — TAMU CVEN 627, Engineering Surface Water Hydrology, Texas A&M University
-	   
-2017-2019: Teaching Assistant — TAMU CVEN 627, Engineering Surface Water Hydrology, Texas A&M University
+2020年：客座讲师 — 德克萨斯A&M大学 CVEN 602《水文遥感》
+
+2018-2019年：客座讲师 — 德克萨斯A&M大学 CVEN 627《工程地表水文学》
+
+2017-2019年：助教 — 德克萨斯A&M大学 CVEN 627《工程地表水文学》
 
 
-Professional Skills
+专业技能
 ======
-Hydrological modeling: DHSVM, VIC, HEC-HMS, SWAT
+水文模拟：DHSVM、VIC、HEC-HMS、SWAT
 
-Geo-computing: Google Earth Engine, ArcGIS, GDAL
+地理计算：Google Earth Engine、ArcGIS、GDAL
 
-Machine learning: TensorFlow, Scikit-learn
+机器学习：TensorFlow、Scikit-learn
 
-Programming: Linux shell, Python, C, JavaScript
-  
-Professional Affiliations
+编程：Linux shell、Python、C、JavaScript
+
+学术组织
 ======
-American Geophysical Union (since 2014)
+美国地球物理联合会（AGU），2014年至今
 
-American Society of Civil Engineers (since 2015)
-
-  
+美国土木工程师学会（ASCE），2015年至今

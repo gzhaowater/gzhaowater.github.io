@@ -5,11 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-Journal articles
+期刊论文
 ======
-(For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9uOVVFgAAAAJ&hl=en))
+（完整列表请参见我的 [Google Scholar](https://scholar.google.com/citations?user=9uOVVFgAAAAJ&hl=en)）
 
-**Key publications (代表作)**
+**代表性论著**
 -------------------
 **Zhao, G.***, H Gao, Y Li, Q Tang, R.I Woolway, J Merder, L Rosa, AM Michalak (2025). Decoupling of surface water storage from precipitation in global drylands due to anthropogenic activity. [Nature Water, 3, 80–88](https://doi.org/10.1038/s44221-024-00367-7).
 
@@ -21,7 +21,7 @@ Journal articles
 
 **Zhao, G.**, and H. Gao* (2018), Automatic correction of contaminated images for assessment of reservoir surface area dynamics. [Geophysical Research Letters, 45, 6092-6099](https://doi.org/10.1029/2018GL078343).
 
-**Other publications (其他著作)**
+**其他论著**
 -------------------
 **Zhao, G.**, Gao, H.*, & Kao, S. C. (2021). The implications of future climate change on the blue water footprint of hydropower in the contiguous US. Environmental Research Letters, 16(3), 034003. 
 
@@ -65,7 +65,7 @@ Sun, S., **Zhao, G.**, Wang, T., Jin, J., Wang, P., Lin, Y., ... & Mao, H. (2019
 
 Li, X., Y. Xu, **G. Zhao**, C. Shi, el al., (2015). Assessing threshold values for eutrophication management using Bayesian method in Yuqiao Reservoir, North China. Environmental Monitoring and Assessment, 187(4), 1-10.
 
-Conferences
+学术会议
 ======
 Zhao, G., and H. Gao, Estimating global lake evaporation losses by leveraging MODIS LST data, American Geophysical Union, Fall Meeting 2019
 
