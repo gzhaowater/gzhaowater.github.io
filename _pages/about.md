@@ -24,6 +24,7 @@ redirect_from:
 博后训练 [@卡内基科学研究所](https://bse.carnegiescience.edu/) | 博士 [@美国德克萨斯A&M大学](https://engineering.tamu.edu/civil/index.html) | 梦想是带着船载WiFi扬帆横渡太平洋
 
 
+动态
 ======
 
 2025年1月：第一作者论文《全球旱区地表水储量与降水的解耦》(Decoupling of surface water storage from precipitation in global drylands) 发表于 [Nature Water](https://doi.org/10.1038/s44221-024-00367-7)

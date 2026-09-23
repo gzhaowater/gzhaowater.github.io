@@ -53,10 +53,10 @@ Notes
 XNKK Photos
 =======
 
-A private photo gallery. Access requires login; credentials are validated against the office authentication server (currently running in placeholder mode until the server is online).
+A private photo library (Seafile private cloud). Access requires an account; after signing in you can browse and upload photos and create folders. Accounts are issued by the administrator.
 
 <p style="margin: 1.2em 0;">
-  <a class="btn btn--primary btn--large" href="{{ '/xnkk_photos/' | relative_url }}">
+  <a class="btn btn--primary btn--large" href="https://xnkk.vip.cpolar.top" target="_blank" rel="noopener">
     Sign in to view photos →
   </a>
 </p>

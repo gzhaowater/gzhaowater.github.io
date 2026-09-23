@@ -64,10 +64,10 @@ CROWN 交互地图展示中国主要水库的水位时间序列，底图上叠�
 XNKK Photos（XNKK 相册）
 =======
 
-私人照片库。访问需要登录；凭据由办公室认证服务器校验（服务器上线前暂以占位模式运行）。
+私人照片库（Seafile 私有云盘）。访问需要账号登录，登录后可浏览、上传照片及新建文件夹；账号由管理员分配。
 
 <p style="margin: 1.2em 0;">
-  <a class="btn btn--primary btn--large" href="{{ '/xnkk_photos/' | relative_url }}">
+  <a class="btn btn--primary btn--large" href="https://xnkk.vip.cpolar.top" target="_blank" rel="noopener">
     登录查看照片 →
   </a>
 </p>
