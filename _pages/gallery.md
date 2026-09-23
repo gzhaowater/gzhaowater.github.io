@@ -48,5 +48,5 @@ author_profile: true
 ![Alt text](../images/WeChatImage_20230529210936.jpg?raw=true)
 ![Alt text](../images/WeChatImage_20230529210927.jpg?raw=true "Great Wall")
 
-![Alt text](../images/Screenshot_2023-05-29_175739.png?raw=true "Timeline")
+![Alt text](../images/Screenshot_2023-05-29_175739.jpg?raw=true "Timeline")
 -->
