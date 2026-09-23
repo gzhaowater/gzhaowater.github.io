@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos — XNKK</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: #f5f7fa;
+      color: #2c3e50;
+    }
+    header.bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 24px;
+      background: linear-gradient(135deg, #1a5276, #2980b9);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    header.bar h1 { margin: 0; font-size: 1.1em; font-weight: 600; letter-spacing: 0.4px; }
+    header.bar .who { font-size: 0.85em; opacity: 0.85; }
+    header.bar a.logout {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.85em;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    header.bar a.logout:hover { background: rgba(255, 255, 255, 0.22); }
+
+    main { padding: 32px 24px; max-width: 1100px; margin: 0 auto; }
+    .placeholder {
+      border: 2px dashed #b8c5cf;
+      border-radius: 12px;
+      padding: 48px 24px;
+      text-align: center;
+      color: #5d6d7e;
+      background: #fff;
+    }
+    .placeholder h2 { margin: 0 0 8px; color: #1a5276; font-size: 1.2em; }
+    .placeholder p  { margin: 6px 0; font-size: 0.95em; }
+    .placeholder code {
+      background: #eef2f5; padding: 2px 6px; border-radius: 4px;
+      font-family: Menlo, Consolas, monospace;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .tile {
+      aspect-ratio: 1 / 1;
+      background: linear-gradient(135deg, #d6e4ec, #b8c5cf);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      color: #5d6d7e; font-size: 0.85em;
+    }
+  </style>
+</head>
+<body>
+  <header class="bar">
+    <div>
+      <h1>XNKK Photos</h1>
+      <div class="who" id="who"></div>
+    </div>
+    <a href="#" class="logout" id="logout-btn">Sign out</a>
+  </header>
+
+  <main>
+    <section class="placeholder" id="placeholder">
+      <h2>Gallery placeholder</h2>
+      <p>This page will load thumbnails from the office photo server once it is wired up.</p>
+      <p>Expected data source: <code>GET ${window.XNKK_API_BASE}/photos</code> with the session cookie.</p>
+    </section>
+
+    <div class="grid" id="grid" aria-hidden="true"></div>
+  </main>
+
+  <script src="./auth.js"></script>
+  <script>
+    (function () {
+      // Gate: bounce unauthenticated visitors back to the login page.
+      window.XNKK_AUTH.requireAuth();
+
+      const session = window.XNKK_AUTH.getSession();
+      const mode    = session ? session.mode : 'unknown';
+      document.getElementById('who').textContent =
+        session ? `Signed in as ${session.user} (${mode} mode)` : '';
+
+      document.getElementById('logout-btn').addEventListener('click', function (ev) {
+        ev.preventDefault();
+        window.XNKK_AUTH.logout();
+      });
+
+      // Optional: lazy-load real thumbnails once XNKK_API_BASE is set.
+      const apiBase = window.XNKK_API_BASE;
+      if (apiBase && session) {
+        fetch(`${apiBase.replace(/\/$/, '')}/photos`, {
+          credentials: 'include',
+          headers: { 'Authorization': 'Bearer ' + (session.token || '') }
+        })
+          .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+          .then(items => {
+            // Replace the placeholder with a real grid; the exact schema
+            // will be defined by the office server. For now we just log.
+            console.log('XNKK: photos loaded', items);
+          })
+          .catch(err => {
+            console.warn('XNKK: failed to load photos', err);
+          });
+      }
+
+      // Tiny visual cue while placeholder is in use.
+      const grid = document.getElementById('grid');
+      for (let i = 0; i < 12; i++) {
+        const tile = document.createElement('div');
+        tile.className = 'tile';
+        tile.textContent = 'photo';
+        grid.appendChild(tile);
+      }
+    })();
+  </script>
+</body>
+</html>

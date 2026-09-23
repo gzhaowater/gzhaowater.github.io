@@ -58,3 +58,16 @@ Notes
 - Click any reservoir marker to load its water-level time series in a floating chart panel.
 - Data is served by an HTTPS endpoint (self-signed certificate) and may require accepting the certificate warning once per browser.
 - For the underlying dataset and citations, see the related publications on the Publications page.
+
+----
+
+XNKK Photos
+=======
+
+A private photo gallery. Access requires login; credentials are validated against the office authentication server (currently running in placeholder mode until the server is online).
+
+<p style="margin: 1.2em 0;">
+  <a class="btn btn--primary btn--large" href="{{ '/xnkk_photos/' | relative_url }}">
+    Sign in to view photos →
+  </a>
+</p>
