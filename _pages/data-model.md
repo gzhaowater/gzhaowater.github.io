@@ -43,6 +43,18 @@ redirect_from:
 
 ----
 
+全球干旱区湖泊容积（GDLS）数据集
+=======
+数据获取：[figshare](https://doi.org/10.6084/m9.figshare.25609902)
+
+数据说明：本数据集包含1985年1月至2020年12月期间，全球约10万个干旱区湖泊的水储量时间序列，反映人类活动影响下干旱区地表水储量与降水之间的解耦关系。
+
+相关论文：Zhao, G., H. Gao, Y. Li, et al. (2025), Decoupling of surface water storage from precipitation in global drylands due to anthropogenic activity, Nature Water, 3, 80–88. [doi.org/10.1038/s44221-024-00367-7](doi.org/10.1038/s44221-024-00367-7)
+
+交互地图：[Earth Engine App](https://ee-zhao.users.earthengine.app/view/gdls)
+
+----
+
 CROWN（中国水库水观测网络）
 =======
 

@@ -32,6 +32,18 @@ Interactive map: [Earth Engine App](https://ee-zhao.users.earthengine.app/view/g
 
 ----
 
+Global Dryland Lake Storage (GDLS) dataset
+=======
+Data available at: [figshare](https://doi.org/10.6084/m9.figshare.25609902)
+
+Data description: This dataset provides time series of lake water storage for ~100,000 dryland lakes worldwide from January 1985 to December 2020, supporting analysis of the decoupling between surface water storage and precipitation under anthropogenic influence.
+
+Related publication: Zhao, G., H. Gao, Y. Li, et al. (2025), Decoupling of surface water storage from precipitation in global drylands due to anthropogenic activity, Nature Water, 3, 80–88. [doi.org/10.1038/s44221-024-00367-7](doi.org/10.1038/s44221-024-00367-7)
+
+Interactive map: [Earth Engine App](https://ee-zhao.users.earthengine.app/view/gdls)
+
+----
+
 CROWN (China Reservoir Water Observation Network)
 =======
 
