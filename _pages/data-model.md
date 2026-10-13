@@ -9,20 +9,15 @@ redirect_from:
 
 全球湖泊蒸发量（GLEV）数据集
 =======
-数据获取：[Zenodo](https://doi.org/10.5281/zenodo.4646620)
+数据获取：[Zenodo v1](https://doi.org/10.5281/zenodo.4646620)、[Google Drive (v2)](https://drive.google.com/drive/folders/1d-vDopGx2hunx7pXNjTFVGLjH1heTaQ_?usp=sharing)
 
-数据说明：本全球数据集包含1985年1月至2018年12月期间，全球[142.7万个湖泊和水库](https://www.hydrosheds.org/products/hydrolakes)的月度水面面积和蒸散发体积。
+数据说明：本全球数据集包含1985年1月至2024年12月期间，全球[142.7万个湖泊和水库](https://www.hydrosheds.org/products/hydrolakes)的月度水面面积和蒸散发体积。
 
 相关论文：Zhao, G., Y. Li, L. Zhou, H. Gao (2022), Evaporative water loss of 1.42 million global lakes, Nature Communications, 13, 3686. [doi.org/10.1038/s41467-022-31125-6](doi.org/10.1038/s41467-022-31125-6)
 
 交互地图：[Earth Engine App](https://zeternity.users.earthengine.app/view/glev)
 
-注：1984至2020年的更新版本可联系作者获取。
-
-<!---<iframe
-  src="https://zeternity.users.earthengine.app/view/glev"
-  style="width:100%; height:600px;"
-></iframe>-->
+注：v1为原文中1985至2018年数据，v2为更新的1984至2024年数据。
 
 ----
 
@@ -36,16 +31,11 @@ redirect_from:
 
 交互地图：[Earth Engine App](https://ee-zhao.users.earthengine.app/view/grsad)
 
-<!---<iframe
-  src="https://ee-zhao.users.earthengine.app/view/grsad"
-  style="width:100%; height:600px;"
-></iframe>-->
-
 ----
 
 全球干旱区湖泊容积（GDLS）数据集
 =======
-数据获取：[figshare](https://doi.org/10.6084/m9.figshare.25609902)
+数据获取：[Figshare](https://doi.org/10.6084/m9.figshare.25609902)
 
 数据说明：本数据集包含1985年1月至2020年12月期间，全球约10万个干旱区湖泊的水储量时间序列，反映人类活动影响下干旱区地表水储量与降水之间的解耦关系。
 
